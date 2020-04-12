@@ -116,7 +116,7 @@ return $json_merge;
 
 //print_r($data);
 
-print(covid19ImpactEstimator());
+//print(covid19ImpactEstimator());
 
 
 ?>
