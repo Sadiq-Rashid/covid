@@ -57,18 +57,16 @@ $dollarsInFlight = dollarsInFlight($obj);
 
 
 
-
-
-
-
 $impact = array(
   "currentlyInfected" => $currentlyInfected,
+  "infectionsByRequestedTime" => $severeCasesByRequestedTimeImpact,
   "availableBeds" => $availableBeds,
   "severeCasesByRequestedTime"=> $severeCasesByRequestedTimeImpact,
   "hospitalBedsByRequestedTime" => $hospitalBedsByRequestedTime,
 );
 $severeImpact= array(
   "currentlyInfected" => $currentlyInfectedSevery,
+  "infectionsByRequestedTime" => $infectionsByRequestedTimeSavereImpact,
   "availableBeds" => $availableBeds,
   "severeCasesByRequestedTime"=> $severeCasesByRequestedTime,
   "hospitalBedsByRequestedTime" => $hospitalBedsByRequestedTime,
