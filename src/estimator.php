@@ -66,7 +66,7 @@ $impact = array(
 );
 $severeImpact= array(
   "currentlyInfected" => $currentlyInfectedSevery,
-  "infectionsByRequestedTime" => $infectionsByRequestedTimeSavereImpact,
+  "infectionsByRequestedTime" => $severeCasesByRequestedTimeImpact,
   "availableBeds" => $availableBeds,
   "severeCasesByRequestedTime"=> $severeCasesByRequestedTime,
   "hospitalBedsByRequestedTime" => $hospitalBedsByRequestedTime,
