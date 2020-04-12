@@ -77,13 +77,6 @@ $severeImpact= array(
   "dollarsInFlight" =>dollarsInFlight($obj),
 );
 
-$dd =array(
-
-  "data" => json_decode($test),
-  "impact" => $impact,
-  "severeImpact" =>  $severeImpact,
-
-  );
 
 
 
@@ -95,10 +88,17 @@ $dd =array(
 // $dd[] = json_decode($test);
 // $dd[] = json_decode(json_encode($impact,true));
 // $dd[] = json_decode(json_encode($severeImpact,true));
-$json_merge = json_encode($dd);
+// $json_merge = json_encode($dd);
 
-$data =json_decode($json_merge);
+// $data =json_decode($json_merge);
 
+$data =array(
+
+  "data" => json_decode($test),
+  "impact" => $impact,
+  "severeImpact" =>  $severeImpact,
+
+  );
 
 
 
