@@ -23,6 +23,7 @@
     $data = json_encode($data);
     $obj = json_decode($data);
   
+    $test = json_encode( $obj1 );
 
 
 $impact = impact($data);
