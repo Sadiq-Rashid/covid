@@ -1,7 +1,7 @@
 <?php
  include 'calculations.php';
 
- function covid19ImpactEstimator()
+ function covid19ImpactEstimator($data)
  {
 
   
