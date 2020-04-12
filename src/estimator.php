@@ -97,7 +97,7 @@ $dd =array(
 // $dd[] = json_decode(json_encode($severeImpact,true));
 $json_merge = json_encode($dd);
 
-$data =$json_merge;
+$data =json_decode($json_merge);
 
 
 
