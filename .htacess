@@ -5,4 +5,5 @@ RewriteRule ^api/v1/on-covid-19/$ src/json.php [L]
 RewriteRule ^api/v1/on-covid-19$ src/json.php [L]
 RewriteRule ^api/v1/on-covid-19/xml$ src/xml.php [L]
 
+
 Options All -Indexes
